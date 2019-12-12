@@ -51,9 +51,10 @@ def log(msg: str, char_to_surround_with: str = None, logger=logging.info, right_
         message_line = msg.rjust(tty_rows, ' ')
 
     pre_text = None
+
     if print_func_name:
-        pre_text = f'log called from {colored(inspect.stack()[1][3], Colors.grey)}'.center(tty_rows,
-                                                                                           char_to_surround_with)
+        pre_text = f'log called from {inspect.stack()[1][3]}'.center(tty_rows,
+                                                                     ' ')
 
     if color:
         if color not in Colors.all_colors:
