@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "sprawl"
-version = "0.1.0"
+version = "0.1.1"
 description = ""
 authors = ["Levi Notik <projects@levinotik.com>"]
 readme="README.md"
