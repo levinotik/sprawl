@@ -9,6 +9,10 @@ when we need to inspect values at runtime. It can be annoying to search through
 a terminal window filled with other logs to find the one log statement you're looking 
 for. This makes it easy for your log messages to stand out. 
 
+## Installation
+
+`$ pip install sprawl`
+
 ## Usage
 Configure logging however you normally would, for example:
 
