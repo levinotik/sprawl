@@ -14,7 +14,6 @@ for. This makes it easy for your log messages to stand out.
 `$ pip install sprawl`
 
 ## Usage
-Configure logging however you normally would, for example:
 
 Import the log function:
 
@@ -22,6 +21,9 @@ Import the log function:
 from sprawl.loud_log import log
 
 ```
+
+Configure logging however you normally would, for example:
+
 
 ```python
 logging.basicConfig(format='%(asctime)s \n %(message)s', level=logging.INFO)
